@@ -18,102 +18,123 @@
 <body>
     <header class="navigation-bar">
         <div class="container-wrap">
-            <div class="container">
+            <div class="container top-nav-container">
                 <div class="top-nav">
                     <figure class="logo">
                         <img src="/assets/images/logo.png" alt="yalla-toys">
                     </figure>
                     <form class="search">
-                        <input type="text" placeholder="What are you looking for?" class="search-inpt">
-                        <button class="search-btn" type="submit"><i></i>Search</button>
+                        <input type="text" placeholder="What are you looking for?" class="search-input">
+                        <button class="search-btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg></button>
                     </form>
-                    <div class="lang">
-                        <button class="lang-btn-eng">ENG</button>
-                        <button class="lang-btn-ar">AR</button>
-                    </div>
-                    <div class="dropdown">
-                        <figure class="flag">
-                            <img src="/assets/images/cntry.png">
-                        </figure>
-                        <select class="country">
+                    <div class="nav-wrapper">
+                        <div class="lang">
+                            <button class="lang-btn-eng">ENG</button>
 
-                            <option value="India">Kuwait</option>
-                            <option value="India">....</option>
-                            <option value="India">....</option>
-                            <option value="India">.....</option>
-                            <option value="India">......</option>
-                            <option value="India">.......</option>
-                            <option value="India">IND</option>
-                            <option value="India">IND</option>
-                            <option value="India">IND</option>
-                            <option value="India">IND</option>
-                            <option value="India">IND</option>
-                        </select>
-                    </div>
-                    <div class="login">
-                        <button class="login-btn"><img src="/assets/images/log-in.png">Login</button>
-                    </div>
-                    <div class="cart">
-                        <button class="cart-btn"><img src="/assets/images/bag.png">
-                            Cart</button>
+                            <button class="lang-btn-ar"> <span class="lang-btn-aftr"></span>AR</button>
+                        </div>
+                        <div class="dropdown">
+                            <figure class="flag">
+                                <img src="/assets/images/cntry.png">
+                            </figure>
+                           
+
+                           
+                                <select class="country">
+                                   
+                                    <option value="India">Kuwait</option>
+                                    <option value="India">....</option>
+                                    <option value="India">....</option>
+                                    <option value="India">.....</option>
+                                    <option value="India">......</option>
+                                    <option value="India">.......</option>
+                                    <option value="India">IND</option>
+                                    <option value="India">IND</option>
+                                    <option value="India">IND</option>
+                                    <option value="India">IND</option>
+                                    <option value="India">IND</option>
+                                </select>
+                                <span class="arrow"></span>
+                        
+                        </div>
+                        <div class="login">
+                            <img src="/assets/images/log-in.png">
+                            <button class="login-btn">Login</button>
+                        </div>
+                        <div class="cart">
+                            <img src="/assets/images/bag.png">
+                            <button class="cart-btn">
+                                Cart</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="bottom-nav">
-            <div class="container">
+            <div class="container bottom-nav-container">
                 <div class="list-wrap">
                     <div class="list">
                         <ul>
-                            <li>All Categories</li> 
-                            <li>Smart Phones </li>
-                            <li> Wearables </li>
-                            <li>Laptops & Tables</li>
-                            <li>Storage Device</li>
-                            <li>TV & Entertainment</li>
-                            <li>Home Appliances</li>
-                            <li> SECURITY CAMERA</li>
-                            <li> More</li>
-                            <li><span class="offerTag">New Arrivals</span></li>
+                            <li> <select class="category">
+
+                                    <option value="India"><a href="#" class="underline">All categories</a> </option>
+                                    <option value="India">....</option>
+                                    <option value="India">....</option>
+                                    <option value="India">.....</option>
+                                    <option value="India">......</option>
+                                    <option value="India">.......</option>
+                                    <option value="India">IND</option>
+                                    <option value="India">IND</option>
+                                    <option value="India">IND</option>
+                                    <option value="India">IND</option>
+                                    <option value="India">IND</option>
+                                </select>
+                               
+                            </li>
+                            <li><a href="#" class="underline">Smart Phones</a> </li>
+                            <li><a href="#" class="underline">Wearables</a>  </li>
+                            <li><a href="#" class="underline">Laptops & Tables</a></li>
+                            <li><a href="#" class="underline">Storage Device</a></li>
+                            <li><a href="#" class="underline">TV & Entertainment</a></li>
+                            <li><a href="#" class="underline">Home Appliances</a></li>
+                            <li class="new-tag-li"> <span class="new-tag"></span>
+                                <a href="#" class="underline">SECURITY CAMERA</a></li>
+                            <li><a href="#" class="underline"> More</a></li>
+                            <li><span class="offerTag">Offers<a href="#"></a></span></li>
                         </ul>
+
+
                     </div>
                 </div>
             </div>
         </div>
     </header>
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <div class="banner">
-        <div class="banner-img-wrapper">
 
-            <div class="container">
-                <div class="banner-text-wrap">
-
-                    <div class="banner">
-                        <h5>iPhone12</h5>
-                        <h1 class="banner-txt">
-                            HOT ARRIVALS With <span>Attractive Offers!</span>
-                        </h1>
-                        <a href="#">Buy Now</a>
-                    </div>
-
-                </div>
+        <div class="container banner-container">
+            <div class="banner-text-wrap">
+                <h5>iPhone12</h5>
+                <h1 class="banner-txt">
+                    HOT ARRIVALS With <b style="font-weight: 600;">Attractive Offers!</b>
+                </h1>
+                <a href="#" >Buy Now</a>
             </div>
-
-
-            <figure class="banner-fig">
-                <img src="/assets/images/Mask Group 4510.png" />
-            </figure>
         </div>
     </div>
 
     <div class="container">
         <div class="tv-entertainment">
             <h3>TV & Entertainment</h3>
-            <a href="#">See More +</a>
+            <a href="#" class="see-all">See More +</a>
         </div>
 
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 clo-md-2">
                 <div class="row">
                     <div class="col-12 column-img">
                         <div class="img-wrapper-rct">
@@ -178,32 +199,3 @@
 </body>
 
 </html>
-
-
-<div>
-
-
-
-
-    <div></div>
-
-
-
-
-
-
-
-    <div>
-
-
-        <div class="container">
-
-
-
-
-        </div>
-
-
-
-    </div>
-</div>
